@@ -6,7 +6,7 @@ import {globSync} from 'glob';
 import {platform} from 'node:process';
 import {createHash} from 'node:crypto';
 
-process.env.PLAYWRIGHT_TEST = 'false';
+process.env.PLAYWRIGHT_TEST = 'true';
 
 // Declare the types of your fixtures.
 type TestFixtures = {
